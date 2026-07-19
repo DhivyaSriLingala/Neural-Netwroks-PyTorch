@@ -157,23 +157,11 @@ Neural networks are especially powerful for images, text, audio, sequences, and 
 <details>
 <summary><strong>Answer key</strong></summary>
 
-**Answer:** Activation functions introduce non-linearity. Without them, a stack of linear layers is mathematically equivalent to one linear transformation and cannot learn complex non-linear relationships.
-
-### 2. 
-
-**Answer:** PyTorch accumulates gradients in each parameter. Clearing them before the next backward pass ensures that each update uses only the gradients from the current mini-batch.
-
-### 3. 
-
-**Answer:** `model.train()` enables training-specific behavior such as dropout and batch-normalization updates. `model.eval()` disables dropout and makes batch normalization use its saved running statistics, producing consistent predictions during validation or testing.
-
-### 4. 
-
-**Answer:** This usually indicates overfitting. The model is learning the training data too closely but is becoming worse at generalizing to unseen data. Possible responses include early stopping, stronger regularization, a smaller network, more data, or improved feature selection.
-
-### 5. 
-
-**Answer:** Scaling the target keeps its values and gradients in a manageable range, which can make neural-network optimization more stable. Predictions are inverse-transformed afterward so evaluation metrics and final outputs are expressed in real dollars.
+1. Activation functions introduce non-linearity. Without them, a stack of linear layers is mathematically equivalent to one linear transformation and cannot learn complex non-linear relationships.
+2. PyTorch accumulates gradients in each parameter. Clearing them before the next backward pass ensures that each update uses only the gradients from the current mini-batch.
+3. `model.train()` enables training-specific behavior such as dropout and batch-normalization updates. `model.eval()` disables dropout and makes batch normalization use its saved running statistics, producing consistent predictions during validation or testing.
+4. This usually indicates overfitting. The model is learning the training data too closely but is becoming worse at generalizing to unseen data. Possible responses include early stopping, stronger regularization, a smaller network, more data, or improved feature selection.
+5. Scaling the target keeps its values and gradients in a manageable range, which can make neural-network optimization more stable. Predictions are inverse-transformed afterward so evaluation metrics and final outputs are expressed in real dollars.
 
 ## Key Takeaway
 

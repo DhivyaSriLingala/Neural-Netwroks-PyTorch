@@ -4,7 +4,7 @@
 
 ## Overview
 
-On Day 11 of my AI learning journey, I moved from learning the mathematics behind machine learning to building a working neural network with **PyTorch**. I created an end-to-end regression pipeline that predicts house prices, from feature engineering and preprocessing through training, evaluation, and visualization.
+Today, in my AI learning journey, I moved from learning the mathematics behind machine learning to building a working neural network with **PyTorch**. I created an end-to-end regression pipeline that predicts house prices, from feature engineering and preprocessing through training, evaluation, and visualization.
 
 This project helped me connect matrix multiplication, activation functions, gradients, the chain rule, and optimization inside one complete neural-network training loop.
 

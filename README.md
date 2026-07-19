@@ -1,6 +1,6 @@
-# Day 11 — Neural Networks & PyTorch
+# Day 11 - Neural Networks & PyTorch
 
-![Day 11 — Neural Networks and PyTorch](./Day-11.png)
+![Day 11 - Neural Networks and PyTorch](./Day-11.png)
 
 ## Overview
 
@@ -183,4 +183,4 @@ Every neural network follows the same essential process: make a forward pass, me
 
 ---
 
-**AI Career Path — Day 11 completed ✅**
+**AI Career Path - Day 11 completed ✅**

@@ -163,6 +163,8 @@ Neural networks are especially powerful for images, text, audio, sequences, and 
 4. This usually indicates overfitting. The model is learning the training data too closely but is becoming worse at generalizing to unseen data. Possible responses include early stopping, stronger regularization, a smaller network, more data, or improved feature selection.
 5. Scaling the target keeps its values and gradients in a manageable range, which can make neural-network optimization more stable. Predictions are inverse-transformed afterward so evaluation metrics and final outputs are expressed in real dollars.
 
+   </details>
+
 ## Key Takeaway
 
 Every neural network follows the same essential process: make a forward pass, measure the loss, clear old gradients, backpropagate the error, and update the weights. Day 11 gave me practical experience with that full process and showed me that evaluating whether a neural network is appropriate for the dataset is part of the modeling work.

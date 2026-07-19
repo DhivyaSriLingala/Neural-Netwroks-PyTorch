@@ -1,4 +1,4 @@
-# Day 11 - Neural Networks & PyTorch
+# Neural Networks & PyTorch
 
 ![Day 11 - Neural Networks and PyTorch](./Day-11.png)
 

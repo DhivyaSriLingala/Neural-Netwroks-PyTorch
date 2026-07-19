@@ -179,6 +179,3 @@ Every neural network follows the same essential process: make a forward pass, me
 - Matplotlib
 - Jupyter Notebook
 
----
-
-**AI Career Path - Day 11 completed ✅**

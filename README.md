@@ -147,23 +147,27 @@ Neural networks are especially powerful for images, text, audio, sequences, and 
 
 ## Knowledge Check
 
-### 1. Why are activation functions necessary between neural-network layers?
+1. Why are activation functions necessary between neural-network layers?
+2. Why must `optimizer.zero_grad()` be called during training?
+3. What is the difference between `model.train()` and `model.eval()`?
+4. What does it mean when training loss decreases but validation loss increases?
+5. Why was the target price scaled and then inverse-transformed?
 
 **Answer:** Activation functions introduce non-linearity. Without them, a stack of linear layers is mathematically equivalent to one linear transformation and cannot learn complex non-linear relationships.
 
-### 2. Why must `optimizer.zero_grad()` be called during training?
+### 2. 
 
 **Answer:** PyTorch accumulates gradients in each parameter. Clearing them before the next backward pass ensures that each update uses only the gradients from the current mini-batch.
 
-### 3. What is the difference between `model.train()` and `model.eval()`?
+### 3. 
 
 **Answer:** `model.train()` enables training-specific behavior such as dropout and batch-normalization updates. `model.eval()` disables dropout and makes batch normalization use its saved running statistics, producing consistent predictions during validation or testing.
 
-### 4. What does it mean when training loss decreases but validation loss increases?
+### 4. 
 
 **Answer:** This usually indicates overfitting. The model is learning the training data too closely but is becoming worse at generalizing to unseen data. Possible responses include early stopping, stronger regularization, a smaller network, more data, or improved feature selection.
 
-### 5. Why was the target price scaled and then inverse-transformed?
+### 5. 
 
 **Answer:** Scaling the target keeps its values and gradients in a manageable range, which can make neural-network optimization more stable. Predictions are inverse-transformed afterward so evaluation metrics and final outputs are expressed in real dollars.
 

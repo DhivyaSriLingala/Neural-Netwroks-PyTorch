@@ -153,6 +153,10 @@ Neural networks are especially powerful for images, text, audio, sequences, and 
 4. What does it mean when training loss decreases but validation loss increases?
 5. Why was the target price scaled and then inverse-transformed?
 
+
+<details>
+<summary><strong>Answer key</strong></summary>
+
 **Answer:** Activation functions introduce non-linearity. Without them, a stack of linear layers is mathematically equivalent to one linear transformation and cannot learn complex non-linear relationships.
 
 ### 2. 

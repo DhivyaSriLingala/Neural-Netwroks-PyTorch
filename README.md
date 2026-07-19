@@ -14,7 +14,6 @@ This project helped me connect matrix multiplication, activation functions, grad
 | --- | --- |
 | [`Neural_Networks_PyTorch.ipynb`](./Neural_Networks_PyTorch.ipynb) | Complete PyTorch implementation and experiment |
 | [`House_Price_prediction.csv`](./House_Price_prediction.csv) | House-price dataset used by the model |
-| [`Day-11.png`](./Day-11.png) | Day 11 project image |
 
 ## What I Built
 
